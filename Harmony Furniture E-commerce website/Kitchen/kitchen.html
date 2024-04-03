@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <title>Harmony Kitchen</title>
+  <link rel="stylesheet" href="kitchen.css" />
+  
+  <link rel="icon" href="../Kitchen/kitchen_image/harmony.png" />
+  <!-- Link to the Font-Awesome Font -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" />
+  <!-- Link to the cloudflare Font -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn s.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- Link to Montserrat font from Google Fonts-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,600,600i,700,700i,800,800i,900,900i&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" />
+  <!-- Link to Montserrat font from Google Fonts-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,600,600i,700,700i,800,800i,900,900i&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <nav>
+    <p><i class="fas fa-handshake"></i> Harmony</p>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+
+      <ul>
+        <li><a href="../HomePage/home.html">Home</a></li>
+        <li><a href="../about/about.html">About</a></li>
+        
+        <li>
+          <a href="">Products</a>
+          <ul style="
+                background-color: rgba(51, 51, 51, 0.5);
+                position: absolute;
+                top: 100%;
+                left: 0;
+              ">
+            <li>
+              <a href="../Bedroom/bedroom.html">Bedroom</a>
+            </li>
+            <li>
+              <a href="../livingroom/living.html">Livingroom</a>
+            </li>
+            <li>
+              <a href="../outdoor/outdoor.html">Outdoor</a>
+            </li>
+            <li>
+              <a href="../Kitchen/kitchen.html">Kitchen</a>
+            </li>
+          </ul>
+        </li>
+        
+        <li><a href="../login/login.html">Login</a></li>
+        <li><a href="../contact/contact.html">Contact Us</a></li>
+         <li><a href="../cart/cart.html">View Cart</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+
+  <section id="top">
+    <div class="firstslide">
+      <div class="firstText">
+        <div class="house">
+          <p>Kitchen<br /><span>Equipments</span></p>
+        </div>
+
+        <div class="text">
+          <p>
+            A dining space with people at its heart, a vibrant hub where long conversations are enjoyed into the late
+            hours. With an extendable table for guests, and special attention given to cozy and atmospheric lighting,
+            your dining space can be converted into an inviting spot to linger over delicious meals with family and
+            friends. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <a href="#top" class="scroll"><i class="fa fa-arrow-up" aria-hidden="true"></i></a> -->
+  <section class="secondsection">
+    <div class="title">
+      <p>Dining Tables and chairs</p>
+    </div>
+    <div class="whole">
+          <div id="k1" class="firstsec">
+            <div class="contain">
+              <div class="containhovers">
+                <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/dining10.jpg');">
+                </div>
+                <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/dining09.jpg');">
+                </div>
+              </div>
+            </div>
+            <div class="description">
+              <div>
+                <h3>LINANAS</h3>
+                <span>Table and 6 chairs,
+                  43 1/4/61</span>
+              </div>
+              <span>
+                <h3><span class="price">27,000</span> <span>Birr</span></h3>
+              </span>
+              <div class="aligner">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i></i></i>
+                <i class="fa-solid fa-star-half">
+                </i><span>(32)</span>
+              </div>
+              <div class="aligner">
+                <span class="addbtn" onclick="promptForQuantity('k1')">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </span>
+                <i class="fa-sharp fa-regular fa-heart"></i><br>
+              </div>
+            </div>
+          </div>
+
+      <div id="k2" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/dining04.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/dining03.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>NORDKEN</h3>
+            <span>
+              Table and 6 chairs, 92 1/2x39 3/8 "</span>
+          </div>
+          <span>
+            <h3><span class="price">20,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(23)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k2')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="k3" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/dining06.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/dining05.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>INGOLF</h3>
+            <span>
+              Table and 6 chairs,
+              43 1/4/61 "</span>
+          </div>
+          <span>
+            <h3><span class="price">25,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(35)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k3')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="whole">
+      <div id="k4" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/dining02.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/dining01.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>EKEDALEN</h3>
+            <span>Table and 6 chairs, 70 7/8/94 1/2 "</span>
+          </div>
+          <span>
+            <h3><span class="price">23,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(25)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k4')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="k5" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/dining08.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/dining07.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>LEGEND</h3>
+            <span>Table and 6 chairs,
+              43 1/4/61</span>
+          </div>
+          <span>
+            <h3><span class="price">22,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(21)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k5')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="k6" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/dining12.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/dining11.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>KIKI</h3>
+            <span>Table and 6 chairs,
+              43 1/4/61</span>
+          </div>
+          <span>
+            <h3><span class="price">16,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(29)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k6')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="secondsection">
+    <div class="title">
+      <p>Kitchen pantry storage</p>
+    </div>
+    <div class="whole">
+      <div id="k7" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/storage2.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/storage1.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>HOLM</h3>
+            <span>Shelving unit with cabinet, 31 1/2x14 5/8x63 3/8 "</span>
+          </div>
+          <span>
+            <h3><span class="price">5,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k7')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="k8" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/storage4.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/storage3.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>STOCK</h3>
+            <span>
+              Shelf unit, indoor/outdoor, 70 7/8x10 5/8x29 1/8-55 1/8 "</span>
+          </div>
+          <span>
+            <h3><span class="price">7,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k8')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="k9" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/storage6.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/storage5.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>IVAR</h3>
+            <span>
+
+              Shelf unit, 35x19 5/8x70 1/2 "</span>
+          </div>
+          <span>
+            <h3><span class="price">5,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k9')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="secondsection">
+    <div class="title">
+      <p>kitchen cabinets</p>
+    </div>
+    <div class="whole">
+      <div id="k10" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/cabinet02.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/cabinet01.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>HEMN</h3>
+            <span>=
+              Kitchen, 85x25 5/8x84 1/2 "</span>
+          </div>
+          <span>
+            <h3><span class="price">30,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(20)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k10')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="k11" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/cabinet04.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/cabinet03.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>BESTA</h3>
+            Corner Kitchen<span>c</span>
+          </div>
+          <span>
+            <h3><span class="price">23,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k11')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="k12" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/cabinet06.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/cabinet05.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>LONGE</h3>
+            <span>Kitchen, 85x25 5/8x84 1/2 "/span>
+          </div>
+          <span>
+            <h3><span class="price">21,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(40)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k12')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="whole">
+      <div id="k13" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/cabinet08.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/cabinet07.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>THEWAY</h3>
+            <span>Kitchen, 85x25 5/8x84 1/2 "</span>
+          </div>
+          <span>
+            <h3><span class="price">29,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k13')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="k15" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Kitchen/kitchen_image/cabinet12.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Kitchen/kitchen_image/cabinet11.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>MINITUE</h3>
+            <span>Kitchen, 92x25 5/8x84 1/2 "</span>
+          </div>
+          <span>
+            <h3><span class="price">23,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('k15')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <div class="youtubesection">
+    <div class="iframe-container">
+      <iframe src="https://www.youtube.com/embed/UZQ2mlHG7jo?si=Qy5yjVpe49Qi_aIh" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <div class="vidcontent">
+      <div class="secondvideocontent">
+        <div>
+          <span class="tips">Transform your kitchen space with our exclusive styling guide! </span>
+        </div>
+        <div>
+          Watch for expert tips on furniture arrangement,budget-friendly ideas and transforming your space into a haven
+          of comfort and style.Watch to elevate your kitchen room with Harmony Furniture!
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="../about/about.html">about us</a></li>
+            <li><a href="../about/about.html">our services</a></li>
+            <li><a href="../about/about.html">privacy policy</a></li>
+            <li><a href="../about/about.html">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="../about/about.html">FAQ</a></li>
+            <li><a href="../about/about.html">shipping</a></li>
+            <li><a href="../about/about.html">returns</a></li>
+            <li><a href="../about/about.html">order status</a></li>
+            <li><a href="../about/about.html">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="../outdoor/outdoor.html">Outdoor Essentials</a></li>
+            <li><a href="../Bedroom/bedroom.html">Bed Room Furnitures</a></li>
+            <li><a href="../Kitchen/kitchen.html">Kitchen Cabinets</a></li>
+            <li>
+              <a href="../livingroom/living.html">Living Room Furnitures</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="kitchen.js"></script>
+</body>
+
+</html>

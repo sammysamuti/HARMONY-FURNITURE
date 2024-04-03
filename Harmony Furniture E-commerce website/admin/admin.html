@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Admin Panel</title>
+
+    <link rel="icon" href="../admin/adminImage/harmony.png" />
+    <!-- Link to the Font-Awesome Font -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css"
+    />
+    <!-- Link to the cloudflare Font -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- Link to Montserrat font from Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,600,600i,700,700i,800,800i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="admin.css" />
+    <link rel="icon" href="../admin/adminImage/harmony.png" />
+  </head>
+  <body>
+    <nav>
+      <p><i class="fas fa-handshake"></i> Harmony</p>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+
+        <ul>
+          <li><a href="../HomePage/home.html">Home</a></li>
+          <li><a href="../about/about.html">About</a></li>
+          <li>
+            <a href="">Products</a>
+            <ul
+              style="
+                background-color: rgba(51, 51, 51, 0.5);
+                position: absolute;
+                top: 100%;
+                left: 0;
+              "
+            >
+              <li>
+                <a href="../Bedroom/bedroom.html">Bedroom</a>
+              </li>
+              <li>
+                <a href="../livingroom/living.html">Livingroom</a>
+              </li>
+              <li>
+                <a href="../outdoor/outdoor.html">Outdoor</a>
+              </li>
+              <li>
+                <a href="../Kitchen/kitchen.html">Kitchen</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="../login/login.html">Login</a></li>
+          <li><a href="../contact/contact.html">Contact Us</a></li>
+          <li>
+            <a href="../cart/cart.html" id="viewCartLink">View Cart</a>
+          </li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="sides">
+      <div class="container">
+        <div class="firstcolumn">
+          <h2><i class="fas fa-user"></i> Admin Panel</h2>
+          <button class="button orders">
+            <i class="fas fa-shopping-cart"></i> Orders
+          </button>
+          <button class="button users">
+            <i class="fas fa-users"></i> Users Data
+          </button>
+          <div class="container">
+            <button class="button products">
+              <i class="fas fa-box"></i> Products
+              <ul class="options-list">
+                <li>Add Products</li>
+                <li>Remove Products</li>
+                <li>Edit Products</li>
+              </ul>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="user-box" id="top">
+        <div class="png">
+          <img src="../admin/adminImage/user7.png" alt="" />
+        </div>
+        <div class="name">
+          <p>Lily A.</p>
+        </div>
+        <div class="png">
+          <img src="../admin/adminImage/user9.webp" alt="" />
+        </div>
+        <div class="name">
+          <p>John D.</p>
+        </div>
+        <div class="png">
+          <img src="../admin/adminImage/user6.png" alt="" />
+        </div>
+        <div class="name">
+          <p>Abraham D.</p>
+        </div>
+        <button class="buttons">Show More <i class="fas fa-plus"></i></button>
+      </div>
+      <div class="user-box">
+        <div class="text"><h2>Income Status</h2></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <a href="#top" class="scroll"
+      ><i class="fa fa-arrow-up" aria-hidden="true"></i
+    ></a>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="../about/about.html">about us</a></li>
+              <li><a href="../about/about.html">our services</a></li>
+              <li><a href="../about/about.html">privacy policy</a></li>
+              <li><a href="../about/about.html">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="../about/about.html">FAQ</a></li>
+              <li><a href="../about/about.html">shipping</a></li>
+              <li><a href="../about/about.html">returns</a></li>
+              <li><a href="../about/about.html">order status</a></li>
+              <li><a href="../about/about.html">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Shop</h4>
+            <ul>
+              <li><a href="../outdoor/outdoor.html">Outdoor Essentials</a></li>
+              <li><a href="../Bedroom/bedroom.html">Bed Room Furnitures</a></li>
+              <li><a href="../Kitchen/kitchen.html">Kitchen Cabinets</a></li>
+              <li>
+                <a href="../livingroom/living.html">Living Room Furnitures</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <title>Harmony Bedroom</title>
+  <link rel="stylesheet" href="bedroom.css" />
+  <link rel="icon" href="../Bedroom/bed_image/harmony.png" />
+  <!-- Link to the Font-Awesome Font -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" />
+  <!-- Link to the cloudflare Font -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- Link to Montserrat font from Google Fonts-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,600,600i,700,700i,800,800i,900,900i&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" />
+  <!-- Link to Montserrat font from Google Fonts-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,600,600i,700,700i,800,800i,900,900i&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <nav>
+    <p><i class="fas fa-handshake"></i> Harmony</p>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+
+      <ul>
+        <li><a href="../HomePage/home.html">Home</a></li>
+        <li><a href="../about/about.html">About</a></li>
+        <li>
+          <a href="">Products</a>
+          <ul style="
+                background-color: rgba(51, 51, 51, 0.5);
+                position: absolute;
+                top: 100%;
+                left: 0;
+              ">
+            <li>
+              <a href="../Bedroom/bedroom.html">Bedroom</a>
+            </li>
+            <li>
+              <a href="../livingroom/living.html">Livingroom</a>
+            </li>
+            <li>
+              <a href="../outdoor/outdoor.html">Outdoor</a>
+            </li>
+            <li>
+              <a href="../Kitchen/kitchen.html">Kitchen</a>
+            </li>
+          </ul>
+        </li>
+       
+        <li><a href="../login/login.html">Login</a></li>
+        <li><a href="../contact/contact.html">Contact Us</a></li>
+          <li><a href="../cart/cart.html">View Cart</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+
+  <section id="top">
+    <div class="firstslide">
+      <div class="firstText">
+        <div class="house">
+          <p>Bed Room<br /><span>Equipments</span></p>
+        </div>
+
+        <div class="text">
+          <p>
+            Create a bedroom you love, whatever your budget. With stylish bedroom furniture and inspiring ideas you'll
+            find everything you need at Harmony furniture.There are lots of beds, but feeling good when you wake up
+            starts with finding the right one. Choose one that’s big enough to stretch out, but cosy enough to snuggle
+            up tight. Our beds and bed frames are built to last for years – in a style that you’ll love just as long.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a href="#top" class="scroll"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+  <section class="secondsection">
+    <div class="title">
+      <p>Beds</p>
+    </div>
+    <div class="whole">
+      <div id="b1" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/hb1\ \(5\).jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Bedroom/bed_image/bed\ \(14\).jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>MALM</h3>
+            <span>Bed frame, high, 140x200 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">38,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b1')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b2" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/bednew2.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Bedroom/bed_image/bednew1.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>IDANAS</h3>
+            <span>Upholstered bed frame, 160x200 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">30,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(32)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b2')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b3" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/hb1\ \(6\).jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Bedroom/bed_image/bed\ \(3\).jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>MANDAL</h3>
+            <span>Bed frame with storage, 140x200 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">35,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b3')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="whole">
+      <div id="b4" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/bed\ \(9\).jpg')">
+            </div>
+            <div class="topimg" style="background-image:url('../Bedroom/bed_image/bed\ \(8\).jpg')">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>NORDLI</h3>
+            <span>Upholstered bed, 2 storage boxes, 160x200 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">35,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b4')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b5" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/bednew2.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('../Bedroom/bed_image/bedneww1.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>GRONLID</h3>
+            <span>Bed frame w storage and headboard, 160x200 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">28,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(38)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b5')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b6" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/bed\ \(10\).jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/bed\ \(11\).jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+
+
+            <h3>TUFJORD</h3>
+            <span>Upholstered storage bed, 160x200 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">30,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(32)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b6')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="secondsection">
+    <div class="title">
+      <p>Wardrobes</p>
+    </div>
+    <div class="whole">
+      <div id="b7" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/shelf\ \(3\).jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/shelf\ \(6\).jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>PAX</h3>
+            <span>
+              Wardrobe, 250x60x236 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">26,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b7')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b8" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/shelf\ \(23\).jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/shelf\ \(22\).jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>MERKER</h3>
+            <span>
+              Wardrobe, 200x60x236 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">35,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(35)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b8')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b9" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/shelf\ \(18\).jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/shelf\ \(16\).jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>GIRUM</h3>
+            <span> Glass Wardrobe combination, 150x60x201 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">29,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(42)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b9')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="whole">
+      <div id="b10" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/shelf\ \(5\).jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/shelf\ \(4\).jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>NEWLY</h3>
+            <span>Wardrobe combination, 150x60x201 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">23,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(18)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b10')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b11" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/shelf\ \(13\).jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/shelf\ \(12\).jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>BLOOMER</h3>
+            <span>Wardrobe combination, 200x60x201 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">22,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(21)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b11')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b12" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/shelf\ \(10\).jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/shelf\ \(9\).jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>GRONLID</h3>
+            <span>4-seat sofa with chaise longue</span>
+          </div>
+          <span>
+            <h3><span class="price">36,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b12')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="secondsection">
+    <div class="title">
+      <p>Chests of drawers</p>
+    </div>
+    <div class="whole">
+      <div id="b13" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/drawer02.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/drawer01.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3> MALM</h3>
+            <span>Chest of 6 drawers, 160x78 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">18,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b13')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b14" class="firstsec">
+        <div  class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/drawer06.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/drawer05.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>HEMNES</h3>
+
+            <span>
+              Chest of 3 drawers, 108x96 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">12,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(35)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b14')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="15" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/drawer08.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/drawer07.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>HAUGA</h3>
+            <span>
+              Chest of 6 drawers, 138x84 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">34,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b15')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="whole">
+      <div id="b16" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/drawer04.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/drawer03.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>BLACKISH</h3>
+            <span>Storage combination, 165x47x90 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">9,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(20)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b16')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b17" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/drawer12.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/drawer11.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>VIHALS</h3>
+            <span>Bedside 2 drawers 82x100 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">12,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(20)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b17')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b18" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/drawer10.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/drawer09.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>FLOW</h3>
+            <span>Chest of 6 drawers, 138x84 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">15,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(12)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b18')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="secondsection">
+    <div class="title">
+      <p>Mirror</p>
+    </div>
+    <div class="whole">
+      <div id="b19" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/mirror04.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/mirror03.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>BLOW</h3>
+            <span>Mirror , 16x50 cm </span>
+          </div>
+          <span>
+            <h3><span class="price">1500</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b19')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b20" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/mirror08.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/mirror07.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>NISSEDAL</h3>
+            <span>
+              Mirror combination,
+              130x150 cm</span>
+          </div>
+          <span>
+            <h3><span class="price">2,000</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(30)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b20')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+      <div id="b21" class="firstsec">
+        <div class="contain">
+          <div class="containhovers">
+            <div class="underimg" style="background-image:url('../Bedroom/bed_image/mirror02.jpg');">
+            </div>
+            <div class="topimg" style="background-image:url('./bed_image/mirror01.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>GRONLID</h3>
+            <span>Mirror 75x168 cm </span>
+          </div>
+          <span>
+            <h3><span class="price">1300</span> <span>Birr</span></h3>
+          </span>
+          <div class="aligner">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></i></i>
+            <i class="fa-solid fa-star-half">
+            </i><span>(14)</span>
+          </div>
+          <div class="aligner">
+            <span class="addbtn" onclick="promptForQuantity('b21')">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <i class="fa-sharp fa-regular fa-heart"></i><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <div class="youtubesection">
+    <div class="iframe-container">
+      <iframe src="https://www.youtube.com/embed/WzRpZTI91UM?si=DR1SNJySlSruG5Bq" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <div class="vidcontent">
+      <div class="secondvideocontent">
+        <div>
+          <span class="tips">Tips to design your Bed room</span>
+        </div>
+        <div>
+          A couple of pillows, a cozy couch, and... a few techniques!
+          Turn your bedroom into the organized sanctuary you've imagined.
+          Attain the bedroom of your dreams with easy-to-follow suggestions that effortlessly streamline relaxation
+          (and organizing), thanks to Bedroom Basics. </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="../about/about.html">about us</a></li>
+            <li><a href="../about/about.html">our services</a></li>
+            <li><a href="../about/about.html">privacy policy</a></li>
+            <li><a href="../about/about.html">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="../about/about.html">FAQ</a></li>
+            <li><a href="../about/about.html">shipping</a></li>
+            <li><a href="../about/about.html">returns</a></li>
+            <li><a href="../about/about.html">order status</a></li>
+            <li><a href="../about/about.html">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="../outdoor/outdoor.html">Outdoor Essentials</a></li>
+            <li><a href="../Bedroom/bedroom.html">Bed Room Furnitures</a></li>
+            <li><a href="../Kitchen/kitchen.html">Kitchen Cabinets</a></li>
+            <li>
+              <a href="../livingroom/living.html">Living Room Furnitures</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="bedroom.js"></script>
+</body>
+
+</html>
